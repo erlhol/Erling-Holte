@@ -1,1 +1,16 @@
+body {
+    background-color: lightblue;
+}
 
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    font: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
