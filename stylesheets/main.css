@@ -2,15 +2,34 @@ body {
     background-color: lightblue;
 }
 
-header {
-    text-align: left;
-    background-color: green;
+/* Style the paragraph inside the header */
+header p {
+    font-size: 18px; /* Set the font size */
+    margin-bottom: 10px; /* Add some space below the paragraph */
+}
+
+/* Style the nav element */
+nav {
+    display: flex; /* Display the links in a row */
+    justify-content: center; /* Center the links horizontally */
+}
+
+/* Style the links inside the nav element */
+nav a {
+    text-decoration: none; /* Remove the default underline */
+    margin: 0 10px; /* Add some space between the links */
+    padding: 5px 10px; /* Add padding around the links */
+    border-radius: 50%; /* Make the buttons round */
+}
+
+/* Style the links on hover */
+nav a:hover {
+    background-color: #555; /* Set the background color on hover */
 }
 
 footer {
     width: auto;
     text-align: center;
-    background-color: red;
 }
 
 p {
