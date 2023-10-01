@@ -10,7 +10,7 @@ function App() {
       </nav>
     </header>
 
-    <h1>Innhold kommer her</h1>
+    <h1>Innhold kommer her </h1>
 
     <footer>
       <p>Måter du kan kontakte meg på: </p>
