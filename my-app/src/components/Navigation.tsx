@@ -8,32 +8,19 @@ const Navigation: React.FC<Props> = ({ pageHandler }) => {
   return (
     <nav className="navbar">
       <ul className="nav-list">
-        <li className="nav-item">
-          <button
-            onClick={() => pageHandler("About me")}
-            className="nav-button"
-          >
-            About me
-          </button>
-        </li>
-        <li className="nav-item">
-          <button
-            onClick={() => pageHandler("My projects")}
-            className="nav-button"
-          >
-            Projects
-          </button>
-        </li>
-        <li className="nav-item">
-          <button
-            onClick={() => pageHandler("Education")}
-            className="nav-button"
-          >
-            Education
-          </button>
-        </li>
+        {["About me", "My projects", "Education", "Work"].map((text, index) => (
+          <li className="nav-item" key={index}>
+            <button
+              onClick={() => pageHandler(text)}
+              className="nav-button"
+            >
+              {text}
+            </button>
+          </li>
+        ))}
       </ul>
     </nav>
+
   );
 };
 
