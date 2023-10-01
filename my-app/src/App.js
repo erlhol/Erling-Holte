@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Projects from './components/Projects';
+import Work from './components/Work';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       {activePage === "About me" && <AboutMe></AboutMe>}
       {activePage === "My projects" && <Projects></Projects>}
       {activePage === "Education" && <Education></Education>}
+      {activePage === "Work" && <Work></Work>}
     </div>
     
     <footer>
