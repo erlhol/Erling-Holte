@@ -1,10 +1,12 @@
 import React from 'react';
 
-interface Props {
-  pageHandler: (page: string) => void;
-}
+const Projects: React.FC = () => {
 
-const Projects: React.FC<Props> = ({ pageHandler }) => {
+    const myProjects: Array<Array<String>> = [ [ "2021", "Universitetet i Oslo","Bruksorientert design"],
+                                             [ "2022", "Universitetet i Oslo", "Software Engineering med prosjektarbeid"],
+                                             [ "2023","Eget prosjekt", "EmnePlanleggern"],
+                                             [ "2016-2019", "Lillestrøm Videregående skole", "Studiespesialisering med fordypning i realfag"]]
+
     return (<div><p>Projects!</p></div>);
 };
 
