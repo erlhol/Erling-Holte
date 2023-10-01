@@ -1,19 +1,28 @@
 import './App.css';
-import Example from './Example';
+import { useState } from 'react';
+import Navigation from './components/Navigation';
+import AboutMe from './components/AboutMe';
+import Education from './components/Education';
+import Projects from './components/Projects';
 
 function App() {
+
+  const [activePage, setActivePage] = useState("About me");
+
+    function activePageHandler(page) {
+        setActivePage(page);
+    }
+
   return (
     <div className="App">
-    <header>
-      <nav>
-        <a href="index.html">About me</a>
-        <a href="index.html">My current projects</a>
-      </nav>
-    </header>
 
-    <h1>Innhold kommer her </h1>
-    <Example message='lol'></Example>
-
+    <Navigation pageHandler={activePageHandler}></Navigation>
+    <div>
+      {activePage === "About me" && <AboutMe></AboutMe>}
+      {activePage === "My projects" && <Projects></Projects>}
+      {activePage === "Education" && <Education></Education>}
+    </div>
+    
     <footer>
       <p>Måter du kan kontakte meg på: </p>
       <a href="mailto:erlinhol@uio.no">Mail</a>
