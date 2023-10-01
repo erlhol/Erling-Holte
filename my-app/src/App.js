@@ -13,7 +13,7 @@ function App() {
     <h1>Innhold kommer her</h1>
 
     <footer>
-      <p>Måter du kan kontakte meg: </p>
+      <p>Måter du kan kontakte meg på: </p>
       <a href="mailto:erlinhol@uio.no">Mail</a>
     </footer>
     </div>
