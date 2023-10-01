@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Work from './components/Work';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -26,8 +27,7 @@ function App() {
     </div>
     
     <footer>
-      <p>Måter du kan kontakte meg på: </p>
-      <a href="mailto:erlinhol@uio.no">Mail</a>
+      <Contact></Contact>
     </footer>
     </div>
   );
