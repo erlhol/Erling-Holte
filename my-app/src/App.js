@@ -1,4 +1,5 @@
 import './App.css';
+import Example from './Example';
 
 function App() {
   return (
@@ -6,11 +7,12 @@ function App() {
     <header>
       <nav>
         <a href="index.html">About me</a>
-        <a href="projects.html">My current projects</a>
+        <a href="index.html">My current projects</a>
       </nav>
     </header>
 
     <h1>Innhold kommer her </h1>
+    <Example message='lol'></Example>
 
     <footer>
       <p>Måter du kan kontakte meg på: </p>
