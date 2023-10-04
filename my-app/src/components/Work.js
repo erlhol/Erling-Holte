@@ -9,6 +9,24 @@ import lillestrom_kirke_logo from './logos/experience/lillestrom_kirke.png'
 
 function Work() {
 
+
+    function work_element_layout(time,title,description,img) {
+        return (
+            <div style={{display: 'flex', gap: '20px'}}>
+                <img style={{
+                        maxWidth: '150px',
+                        maxHeight: '150px',
+                        width:'auto',
+                        height:'auto'}}
+                        src={img} alt="img"/>
+                <div style={{textAlign: 'left'}} >
+                    <b style={{fontSize: '24px', paddingRight: '10px'}}>{title}</b><span>{time}</span>
+                    <p>{description}</p>
+                </div>
+            </div>
+        )
+    } 
+
     const workExperience = 
     [ [ "2019-2020", "Førstegangstjeneste HMKG","Geværsoldat hos Hans Majestet Kongens Garde. 2. gardekompani",forsvaret_logo],
     [ "2022", "Frivillig IMO", "Var guide for Peru under den 63. internasjonale matematiske olympiaden som ble holdt i Oslo fra 10. til 15. juli",imo_logo],
@@ -21,15 +39,7 @@ function Work() {
         {workExperience.map((value, i) => (
             <div key={i}>
             <div className="content">
-                <h2>{value[1]}</h2>
-                <p>{value[0]}</p>
-                <p>{value[2]}</p>
-                <img style={{
-                    maxWidth: '150px',
-                    maxHeight: '150px',
-                    width:'auto',
-                    height:'auto'}}
-                    src={value[3]} alt="img"/>
+                {work_element_layout(value[0],value[1],value[2],value[3])}
             </div>
             </div>
         ))}
