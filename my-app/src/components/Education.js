@@ -5,10 +5,10 @@ import lillestrom_logo from './logos/education/lillestrom.jpg'
 
 function Education() {
 
-    const myEvents = [ [ "2023-2025", "Universitetet i Oslo","Master i programmering og systemarkitekur",uio_logo],
-                                             [ "2023", "National University of Singapore", "Utveksling",nus_logo],
-                                             [ "2020-2023","Universitetet i Oslo", "Bachelor i programmering og systemarkitektur",uio_logo],
-                                             [ "2016-2019", "Lillestrøm Videregående skole", "Studiespesialisering med fordypning i realfag",lillestrom_logo]]
+    const myEvents = [ [ "AUGUST 2023 – D.D.", "Universitetet i Oslo","Master i programmering og systemarkitekur",uio_logo],
+                                             [ "JANUAR 2023 – MAI 2023", "National University of Singapore", "Utveksling",nus_logo],
+                                             [ "AUGUST 2023 – JUNI 2023","Universitetet i Oslo", "Bachelor i programmering og systemarkitektur",uio_logo],
+                                             [ "AUGUST 2016 - JUNI 2019", "Lillestrøm Videregående skole", "Studiespesialisering med fordypning i realfag",lillestrom_logo]]
     return (
         <div className="timeline">
             {myEvents.map((value, i) => (
