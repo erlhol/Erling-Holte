@@ -6,27 +6,24 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import { useTranslation } from 'react-i18next';
 
 function App() {
-
-  const [activePage, setActivePage] = useState("About me");
 
   function activePageHandler(page) {
       setActivePage(page);
   }
 
-  const { t } = useTranslation();
+  const [activePage, setActivePage] = useState('about');
 
   return (
     <div className="App">
     
     <Navigation pageHandler={activePageHandler}></Navigation>
     <div>
-      {activePage === t('about') && <AboutMe></AboutMe>}
-      {activePage === t('my_projects') && <Projects></Projects>}
-      {activePage === t('education') && <Education></Education>}
-      {activePage === t('work') && <Work></Work>}
+      {activePage === 'about' && <AboutMe></AboutMe>}
+      {activePage === 'my_projects' && <Projects></Projects>}
+      {activePage === 'education' && <Education></Education>}
+      {activePage === 'work' && <Work></Work>}
     </div>
     
     <footer>

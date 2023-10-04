@@ -16,13 +16,13 @@ const Navigation: React.FC<Props> = ({ pageHandler }) => {
   return (
     <nav className="navbar">
       <ul className="nav-list">
-        {[t('about'), t('my_projects'), t('education'), t('work')].map((text, index) => (
+        {['about', 'my_projects', 'education', 'work'].map((text, index) => (
           <li className="nav-item" key={index}>
             <button
               onClick={() => pageHandler(text)}
               className="nav-button"
             >
-              {text}
+              {t(text)}
             </button>
           </li>
         ))}
