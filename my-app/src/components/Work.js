@@ -1,11 +1,11 @@
 import React from 'react';
 
-import forsvaret_logo from './logos/forsvaret.jpg';
-import imo_logo from './logos/imo.png';
-import vitenparken_logo from './logos/vitenparken.png'
-import norli_logo from './logos/norli.png'
-import uio_logo from './logos/uio.png'
-import lillestrom_kirke_logo from './logos/lillestrom_kirke.png'
+import forsvaret_logo from './logos/experience/forsvaret.jpg';
+import imo_logo from './logos/experience/imo.png';
+import vitenparken_logo from './logos/experience/vitenparken.png'
+import norli_logo from './logos/experience/norli.png'
+import uio_logo from './logos/experience/uio.png'
+import lillestrom_kirke_logo from './logos/experience/lillestrom_kirke.png'
 
 function Work() {
 
