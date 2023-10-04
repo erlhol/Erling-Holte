@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Erling-Holte/static/css/main.85b5296f.css",
-    "main.js": "/Erling-Holte/static/js/main.e7d5fe6d.js",
+    "main.js": "/Erling-Holte/static/js/main.eba94423.js",
     "static/js/787.28cb0dcd.chunk.js": "/Erling-Holte/static/js/787.28cb0dcd.chunk.js",
     "static/media/vitenparken.png": "/Erling-Holte/static/media/vitenparken.cf4e7d8c56a3dcfe8569.png",
     "static/media/nus.jpg": "/Erling-Holte/static/media/nus.f0326d857929619b7eac.jpg",
@@ -12,11 +12,11 @@
     "static/media/forsvaret.jpg": "/Erling-Holte/static/media/forsvaret.896c6af8b095066a6b95.jpg",
     "index.html": "/Erling-Holte/index.html",
     "main.85b5296f.css.map": "/Erling-Holte/static/css/main.85b5296f.css.map",
-    "main.e7d5fe6d.js.map": "/Erling-Holte/static/js/main.e7d5fe6d.js.map",
+    "main.eba94423.js.map": "/Erling-Holte/static/js/main.eba94423.js.map",
     "787.28cb0dcd.chunk.js.map": "/Erling-Holte/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85b5296f.css",
-    "static/js/main.e7d5fe6d.js"
+    "static/js/main.eba94423.js"
   ]
 }
