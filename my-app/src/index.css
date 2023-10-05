@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (min-width: 640px) {
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Spacing between navigation items */
+    flex-direction: row;
+  }
+}
+
 /* styles.css or your preferred stylesheet */
 .navbar {
   background-color: #5da3b8; /* Background color of the navigation bar */
@@ -16,11 +26,9 @@ body {
 }
 
 .nav-list {
+  flex-direction: row;
   list-style-type: none;
-  padding: 0;
-  display: flex;
-  gap: 20px; /* Spacing between navigation items */
-}
+} 
 
 .nav-item {
   margin: 0;

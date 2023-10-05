@@ -35,15 +35,13 @@ function Work() {
     [ "AUGUST 2019 – JULI 2020", "Førstegangstjeneste HMKG","Geværsoldat hos Hans Majestet Kongens Garde. 2. gardekompani",forsvaret_logo],
     ["AUGUST 2020 – JUNI 2023","Kormedarbeider","Hentet barna på skolen og fulgte dem til øvelseslokalet, skar opp frukt og hjalp til med diverse, holdt øvelse dersom dirigenten var borte.",lillestrom_kirke_logo]]
     return (
-        <>
+        <div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>
         {workExperience.map((value, i) => (
-            <div key={i}>
-            <div className="content">
+            <div key={i} className="content">
                 {work_element_layout(value[0],value[1],value[2],value[3])}
             </div>
-            </div>
         ))}
-        </>
+        </div>
         
     );
 };

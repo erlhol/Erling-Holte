@@ -7,7 +7,6 @@ interface Props {
 }
 
 const Navigation: React.FC<Props> = ({ pageHandler }) => {
-  const { i18n } = useTranslation();
   const { t } = useTranslation();
 
   const changeLanguage = (newLanguage: string) => {
