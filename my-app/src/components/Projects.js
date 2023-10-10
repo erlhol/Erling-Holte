@@ -8,10 +8,10 @@ function Projects() {
 
     return (<div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>
         {myProjects.map((values,i) => (
-            <div key={i} style={{wordBreak: 'break-all'}}>
+            <div className="content" key={i} style={{wordBreak: 'break-all'}}>
                 <p>{values[1]} - {values[0]}</p>
                 <p>{values[2]}</p>
-                <p>{values[3]}</p>
+                <a href={values[3]} target="_blank" rel="noopener noreferrer">Link</a>
             </div>
         ))}
     </div>);
