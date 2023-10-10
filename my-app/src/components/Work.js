@@ -12,7 +12,7 @@ function Work() {
 
     function work_element_layout(time,title,description,img) {
         return (
-            <div style={{display: 'flex', gap: '20px'}}>
+            <div style={{display: 'flex', gap: '20px', wordBreak: 'break-all'}}>
                 <img style={{
                         maxWidth: '150px',
                         maxHeight: '150px',

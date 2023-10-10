@@ -5,9 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(139, 174, 231);
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 600px) {
   .nav-list {
     list-style-type: none;
     padding: 0;
@@ -23,6 +24,7 @@ body {
   padding: 10px; /* Padding around the navigation bar */
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .nav-list {
@@ -50,12 +52,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-/* Set a background color */
-body {
-  background-color: rgb(139, 174, 231);
-  font-family: Helvetica, sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
