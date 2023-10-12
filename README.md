@@ -1,3 +1,0 @@
-# Erling Holte
-
-My webpage
