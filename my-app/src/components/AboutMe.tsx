@@ -9,10 +9,12 @@ const AboutMe: React.FC = () => {
     <div style={{textAlign: 'center'}}>
         <ul style={{display: 'inline-block'}}>
             <li>Fotball ⚽</li>
+            <li>Lesing📖</li>
             <li>Piano 🎹</li>
             <li>Sang🎶</li>
             <li>Dans🕺</li>
             <li>Løping🏃🏻‍♂️</li>
+            <li>Å reise🗺️</li>
         </ul>
     </div>
     
