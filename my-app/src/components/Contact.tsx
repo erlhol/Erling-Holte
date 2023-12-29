@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Contact: React.FC = () => {
-    return (<><p>Måter du kan kontakte meg på: </p>
-    <a href="mailto:erlinhol@uio.no">Mail: erlinhol@uio.no</a></>)
+    return (<><p>Kontakt meg gjerne på mail: </p>
+    <a href="mailto:erlinhol@uio.no">erlinhol@uio.no</a></>)
 };
 
 export default Contact;
