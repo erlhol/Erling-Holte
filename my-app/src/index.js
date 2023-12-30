@@ -1,28 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { I18nextProvider } from 'react-i18next';
-import i18n from 'i18next';
-import translationsEn from './locales/en.json';
-import translationsNo from './locales/no.json';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { I18nextProvider } from "react-i18next";
+import i18n from "i18next";
+import translationsEn from "./locales/en.json";
+import translationsNo from "./locales/no.json";
 
 i18n.init({
   interpolation: { escapeValue: false },
-  lng: 'no', // Set the default language
+  lng: "no", // Set the default language
   resources: {
     en: {
       translation: translationsEn,
     },
     no: {
-      translation: translationsNo
-    }
+      translation: translationsNo,
+    },
     // Add more languages and their translations here
   },
 });
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <I18nextProvider i18n={i18n}>
     <App />

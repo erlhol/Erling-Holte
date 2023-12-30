@@ -17,7 +17,7 @@ const AboutMe: React.FC = () => {
             <li>Å reise🗺️</li>
         </ul>
     </div>
-    
+
     </div>);
 };
 
