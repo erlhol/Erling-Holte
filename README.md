@@ -1,3 +1,17 @@
 # Erling Holte
 
-My webpage
+My webpage built in React
+
+## Run the app
+
+To run the app for the first time you will run this command to install all packages requried. yarn is used for package management.
+
+```
+cd my-app && yarn install
+```
+
+And then run this command to start the application
+
+```
+yarn start
+```
