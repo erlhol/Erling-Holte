@@ -18,7 +18,7 @@ body {
   }
 }
 
-/* styles.css or your preferred stylesheet */
+/* Styling for navigation */
 .navbar {
   background-color: #5da3b8; /* Background color of the navigation bar */
   padding: 10px; /* Padding around the navigation bar */
@@ -144,6 +144,10 @@ body {
   background-color: white;
   position: relative;
   border-radius: 6px;
+}
+
+.content:hover {
+  background-color: rgba(255, 255, 255, 0.684);
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
