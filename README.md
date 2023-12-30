@@ -1,6 +1,6 @@
 # Erling Holte
 
-My webpage built in React
+My webpage built in React. Learning TypeScript in this project.
 
 ## Run the app
 
