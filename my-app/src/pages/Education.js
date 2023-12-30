@@ -1,8 +1,8 @@
 import React from 'react';
-import uio_logo from './logos/experience/uio.png'
-import nus_logo from './logos/education/nus.jpg'
-import lillestrom_logo from './logos/education/lillestrom.jpg'
-import boston from './logos/education/boston.jpg'
+import uio_logo from '../components/logos/experience/uio.png'
+import nus_logo from '../components/logos/education/nus.jpg'
+import lillestrom_logo from '../components/logos/education/lillestrom.jpg'
+import boston from '../components/logos/education/boston.jpg'
 
 function Education() {
 

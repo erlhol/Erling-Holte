@@ -1,10 +1,10 @@
 import './App.css';
 import { useState } from 'react';
-import Navigation from './components/Navigation';
-import AboutMe from './components/AboutMe';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Work from './components/Work';
+import Navigation from './components/common/Navigation';
+import AboutMe from './pages/AboutMe';
+import Education from './pages/Education';
+import Projects from './pages/Projects';
+import Work from './pages/Work';
 import Contact from './components/Contact';
 
 function App() {
