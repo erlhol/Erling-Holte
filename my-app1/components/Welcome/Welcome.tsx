@@ -1,13 +1,14 @@
 import { Title, Text, Anchor } from '@mantine/core';
 import classes from './Welcome.module.css';
+import { BadgeCard } from '../BadgeCard/BadgeCard';
 
 export function Welcome() {
   return (
     <>
       <Title className={classes.title} ta="center" mt={100}>
-        Welcome to{' '}
-        <Text inherit variant="gradient" component="span" gradient={{ from: 'pink', to: 'yellow' }}>
-          Mantine
+        {' '} Erling
+        <Text inherit variant="gradient" component="span" gradient={{ from: 'green', to: 'blue' }}>
+          {" Holte"}
         </Text>
       </Title>
       <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
