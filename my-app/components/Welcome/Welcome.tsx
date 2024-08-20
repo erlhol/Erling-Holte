@@ -12,7 +12,7 @@ export function Welcome() {
           {" Holte"}
         </Text>
       </Title>
-      <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
+      <Text ta="center" size="lg" maw={580} mx="auto" mt="xl">
         Problemløser for fremtiden
       </Text>
     </>
