@@ -25,7 +25,7 @@ export function BadgeCard({ image, title, organization, year, description, link,
   return (
     <Card withBorder radius="md" p="md" className={classes.card}>
       <Card.Section>
-        <Image src={image} alt={title} height={180} />
+        <Image src={image} height={180} />
       </Card.Section>
 
       <Card.Section className={classes.section} mt="md">
