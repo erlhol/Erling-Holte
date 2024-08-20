@@ -72,7 +72,7 @@ export default function Experience() {
               <Card.Section>
                 <Image src={experience.image} alt={experience.title} height={160} />
               </Card.Section>
-              <Text weight={500} size="lg" mt="md">
+              <Text size="lg" mt="md">
                 {experience.title}
               </Text>
               <Text color="dimmed" size="sm" mt="xs">
