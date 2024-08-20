@@ -12,4 +12,7 @@ export default withBundleAnalyzer({
   experimental: {
     optimizePackageImports: ['@mantine/core', '@mantine/hooks'],
   },
+  output: 'export', // Ensures the app is exported as static HTML
+  trailingSlash: true, // Optional: Ensures URL structure matches GitHub Pages requirements
+  basePath: '/Erling-Holte',
 });
