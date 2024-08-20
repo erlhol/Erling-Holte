@@ -21,7 +21,7 @@
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "eslint.format.enable": true,
-    "eslint.workingDirectories": [],
+    "eslint.workingDirectories": ["./my-app"],
     "prettier.arrowParens": "avoid",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
