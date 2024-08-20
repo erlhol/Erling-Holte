@@ -1,6 +1,7 @@
-import { BadgeCard } from "@/components/BadgeCard/BadgeCard";
+import { BadgeCard } from "../../../components/BadgeCard/BadgeCard";
 import { Container, Title, Text, SimpleGrid } from "@mantine/core";
-import classes from './FeaturesGrid.module.css';
+import classes from '../FeaturesGrid.module.css';
+import React from "react";
 
 const mockdata = [{
   image:
@@ -38,7 +39,7 @@ export default function Projects() {
   const features = mockdata.map((feature, index) => <BadgeCard {...feature} key={index} />);
   return (
     <Container className={classes.wrapper}>
-      <Title className={classes.title}>Integrate effortlessly with any technology stack</Title>
+      <Title className={classes.title}>My projects</Title>
 
       <Container size={560} p={0}>
         <Text size="sm" className={classes.description}>
