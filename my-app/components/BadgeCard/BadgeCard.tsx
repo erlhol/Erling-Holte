@@ -7,12 +7,15 @@ import React from 'react';
 interface BadgeProps {
   image: string;
   title: React.ReactNode;
+  organization: string;
+  year: string;
   description: React.ReactNode;
-  country: React.ReactNode;
+  link: string;
   badges: { emoji: string; label: string }[];
 }
 
-export function BadgeCard({ image, title, description, country, badges }: BadgeProps) {
+export function BadgeCard({ image, title, organization, year, description, link, badges }: BadgeProps) {
+
   const features = badges?.map((badge) => (
     <Badge variant="light" key={badge.label} leftSection={badge.emoji}>
       {badge.label}
@@ -31,7 +34,7 @@ export function BadgeCard({ image, title, description, country, badges }: BadgeP
             {title}
           </Text>
           <Badge size="sm" variant="light">
-            {country}
+            {organization}
           </Badge>
         </Group>
         <Text fz="sm" mt="xs">
@@ -41,7 +44,7 @@ export function BadgeCard({ image, title, description, country, badges }: BadgeP
 
       <Card.Section className={classes.section}>
         <Text mt="md" className={classes.label} c="dimmed">
-          Perfect for you, if you enjoy
+          Temaer
         </Text>
         <Group gap={7} mt={5}>
           {features}
@@ -49,12 +52,9 @@ export function BadgeCard({ image, title, description, country, badges }: BadgeP
       </Card.Section>
 
       <Group mt="xs">
-        <Button radius="md" style={{ flex: 1 }}>
-          Show details
+        <Button onClick={() => window.open(link, '_blank')} radius="md" style={{ flex: 1 }}>
+          Lær mer
         </Button>
-        <ActionIcon variant="default" radius="md" size={36}>
-          <IconHeart className={classes.like} stroke={1.5} />
-        </ActionIcon>
       </Group>
     </Card>
   );
