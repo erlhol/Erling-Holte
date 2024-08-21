@@ -15,3 +15,5 @@ And then run this command to start the application
 ```
 yarn start
 ```
+
+Previous page: https://erlhol.github.io/Erling-Holte/
