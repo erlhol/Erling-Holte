@@ -5,7 +5,13 @@ import React from "react";
 
 const workExperience = [
   {
-    image: '/images/empallo.jpeg', // Sørg for at dette bildet finnes, ellers kan du bruke en standardbilde
+    image: '/images/sopra_steria.png',
+    title: 'Utvikler',
+    organization: 'Sopra Steria',
+    year: 'AUGUST 2025 - NÅ',
+    description: 'Utvikler hos Sopra Steria.',
+  }, {
+    image: '/images/empallo.jpeg',
     title: 'Full stack utvikler',
     organization: 'Empallo',
     year: 'JUNI 2024 - AUGUST 2024',
